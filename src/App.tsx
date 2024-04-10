@@ -105,8 +105,8 @@ const App = () => {
               <FontAwesomeIcon icon={faCopy} className="copy-icon" onClick={() => copyToClipboard(accounts[0])} />
             </div>
           </div>
-          <button className="sign-message-button" onClick={executeTxEvm}>Execute EVM Transaction</button>
-          <button className="sign-message-button button-btc" onClick={executeTxBtc}>Execute BTC Transaction</button>
+          <button className="sign-message-button" onClick={executeTxEvm}>EVM Pay</button>
+          <button className="sign-message-button button-btc" onClick={executeTxBtc}>BTC Pay</button>
           <button className="disconnect-button" onClick={() => {disconnect();}}>Logout</button>
         </div>
       )}
